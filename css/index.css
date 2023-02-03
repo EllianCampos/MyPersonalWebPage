@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: hsl(0, 0%, 93%);
+}
+
+header{
+    margin: 0;
+    
+    background-color: rgb(0 0 0 / .8);
+    color: red;
+
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+
+
+
+    
+}
+
+header img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+h1{
+    font-size: 1.5em;
+}
+
+.smallText{
+    font-size: 0.8em;
+    color: #ddd;
+}
+
+
+section{
+    background-color: hsl(0, 0%, 93%);
+
+    width: 100vw;
+    height: 100vh;
+}
+
+h2{
+    text-align: center;
+}
+
+.titleTypeProyect{
+    display: inline;
+}
+
+.arrow{
+    width: 1em;
+    display: inline;
+}
+
+.UniversityProy,
+.AutodidactProy{
+    background-color: chocolate;
+
+    width: 80%;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+    cursor: pointer;
+}
+
+
+
+.AutodidactProy{
+    background-color: coral;
+}
+
+.hide{
+    display: none;
+}
+
